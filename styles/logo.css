@@ -1,0 +1,20 @@
+.logo {
+    min-width: 328px;
+    height: 255px;
+    margin: 1em 1em 0;
+    position: relative;
+    background-image: url('..//assets/John-Rodenn.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__titulo {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--cor-tres);
+    letter-spacing: 16px;
+}

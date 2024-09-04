@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <title>LOGO</title>
 </head>
 <body>
-    <h2>Hello, world!</h2>
+<main>
+    <section class="logo">
+        <h1 class="logo__titulo">LOGO</h1>
+    </section>
+    <section class="entrada">
+        <div class="login">
+            <form>
+                <input id="username" type="text" placeholder="Usuário" class="login__campo">
+                <input id="password" type="password" placeholder="Senha" class="login__campo">
+                <button type="submit" id="entrar-botao">Entrar</button>
+            </form>
+            <p class="login__rec">Esqueceu a senha? <a href=#>Clique aqui</a></p>
+        </div>
+        <div class="cadastro">
+            <span>ou</span>
+            <button type="submit" id="cadastro-botao">Cadastrar</button>
+        </div>
+    </section>
+    
+</main>
 </body>
 </html>

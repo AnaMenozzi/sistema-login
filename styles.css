@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("styles/entrada.css");
+@import url("styles/logo.css");
+
+
+:root {
+    --fonte-principal: "Lato";
+    --cor-um: #11547D;
+    --cor-dois: #D76510;
+    --cor-tres: #fff;
+    --fundo-degrade: linear-gradient(0deg,#007984 0%, #043161 80%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+body {
+    font-family: var(--fonte-principal);
+    background: #007984;
+    background: var(--fundo-degrade);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
